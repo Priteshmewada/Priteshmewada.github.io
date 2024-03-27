@@ -25,13 +25,20 @@
             text-decoration: underline;
         }
         .portfolio-item {
+            display: flex;
+            align-items: center;
             margin: 20px;
             border-bottom: 1px solid #ccc;
             padding-bottom: 20px;
         }
         .portfolio-item img {
-            max-width: 100%;
+            width: 50%; /* Adjust the image width as needed */
             height: auto;
+        }
+        .portfolio-item .text-content {
+            width: 50%; /* Adjust the text width as needed */
+            text-align: right;
+            padding-left: 20px; /* Adjust the spacing between image and text as needed */
         }
         .portfolio-item h3 {
             margin: 10px 0;
@@ -57,23 +64,14 @@
     <!-- Portfolio Item 1 -->
     <div class="portfolio-item">
         <img src="WhatsApp Image 2023-08-08 at 18.05.24 (1).jpeg" alt="Good Earth Winery">
-        <h3>Good Earth Winery</h3>
-        <p>A for Architect</p>
+        <div class="text-content">
+            <h3>Good Earth Winery</h3>
+            <p>A for Architect</p>
+        </div>
     </div>
 
-    <!-- Portfolio Item 2 -->
-    <div class="portfolio-item">
-        <img src="WhatsApp Image 2023-08-08 at 18.05.24 (1).jpeg" alt="Plantation Retreat Latur">
-        <h3>Plantation Retreat Latur</h3>
-        <p>Architecture Brio</p>
-    </div>
+    <!-- Additional portfolio items can be added here -->
 
-    <!-- Portfolio Item 3 -->
-    <div class="portfolio-item">
-        <img src="WhatsApp Image 2023-08-08 at 18.05.24 (1).jpeg" alt="Malkani Villa">
-        <h3>Malkani Villa</h3>
-        <p>Design Circus</p>
-    </div>
 </section>
 
 <!-- Additional sections and footer can be added here -->
